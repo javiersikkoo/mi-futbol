@@ -1,0 +1,21 @@
+{
+  "Champions League": {
+    "fctv33": "https://live-stream.com/champions",
+    "pirme": "https://live-stream.com/champions-pirme",
+    "fctv33-hd": "https://live-stream.com/champions-hd"
+  },
+  "LaLiga": {
+    "fctv33": "https://live-stream.com/laliga",
+    "pirme": "https://live-stream.com/laliga-pirme",
+    "fctv33-hd": "https://live-stream.com/laliga-hd"
+  },
+  "Premier League": {
+    "fctv33": "https://live-stream.com/premier",
+    "pirme": "https://live-stream.com/premier-pirme",
+    "fctv33-hd": "https://live-stream.com/premier-hd"
+  },
+  "LaLiga SmartBank": {
+    "fctv33": "https://live-stream.com/smartbank",
+    "pirme": "https://live-stream.com/smartbank-pirme"
+  }
+}

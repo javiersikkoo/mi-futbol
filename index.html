@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoalHub | Tu Fútbol en Directo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">GOALHUB</div>
+        <nav>
+            <span>Tu fútbol, tu forma de verlo.</span>
+        </nav>
+    </header>
+
+    <div class="filters">
+        <button id="filter-all" class="filter-btn active">Todos</button>
+        <button id="filter-live" class="filter-btn">En Vivo</button>
+        <button id="filter-favorites" class="filter-btn">Favoritos</button>
+    </div>
+
+    <main id="match-grid">
+        <!-- Los partidos se cargarán aquí dinámicamente -->
+    </main>
+
+    <!-- Modo Cine -->
+    <div id="cinema-container">
+        <button id="btn-close-cinema">&times;</button>
+        <h1 id="current-match-title">Partido</h1>
+        <div id="live-score">0 - 0</div>
+        <div id="timeDisplay" style="font-size: 1.2rem; margin-bottom: 20px;">Tiempo</div>
+        
+        <video id="main-video" controls autoplay>
+            <source src="" type="video/mp4">
+            Tu navegador no soporta video.
+        </video>
+
+        <div class="controls">
+            <label for="stream-selector">Elige tu fuente:</label>
+            <select id="stream-selector">
+                <!-- Las fuentes se cargarán aquí -->
+            </select>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

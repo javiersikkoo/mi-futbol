@@ -1,0 +1,31 @@
+{
+  "leagues": [
+    {
+      "name": "Champions League",
+      "matches": [
+        { "id": 1, "homeTeam": "Real Madrid", "awayTeam": "Manchester City", "score": "2 - 1", "time": "18:00", "isLive": true },
+        { "id": 2, "homeTeam": "Bayern Munich", "awayTeam": "PSG", "score": "0 - 0", "time": "21:00", "isLive": false }
+      ]
+    },
+    {
+      "name": "LaLiga",
+      "matches": [
+        { "id": 3, "homeTeam": "Barcelona", "awayTeam": "Atletico Madrid", "score": "1 - 1", "time": "20:30", "isLive": true },
+        { "id": 4, "homeTeam": "Real Sociedad", "awayTeam": "Villarreal", "score": "0 - 0", "time": "22:00", "isLive": false }
+      ]
+    },
+    {
+      "name": "Premier League",
+      "matches": [
+        { "id": 5, "homeTeam": "Liverpool", "awayTeam": "Arsenal", "score": "3 - 2", "time": "19:00", "isLive": true },
+        { "id": 6, "homeTeam": "Chelsea", "awayTeam": "West Ham", "score": "0 - 0", "time": "21:30", "isLive": false }
+      ]
+    },
+    {
+      "name": "LaLiga SmartBank",
+      "matches": [
+        { "id": 7, "homeTeam": "Deportivo La Coruña", "awayTeam": "Alavés", "score": "0 - 0", "time": "18:30", "isLive": false }
+      ]
+    }
+  ]
+}
